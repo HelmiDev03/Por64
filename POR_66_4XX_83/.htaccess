@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^helmidev\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.helmidev\.com$
+RewriteRule ^(.*)$ "Https\:\/\/helmidev\.com\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^helmidev\.com$
+RewriteRule ^Helmidev\.com$ "Https\:\/\/helmidev\.com\ \/" [R=302,L]
+

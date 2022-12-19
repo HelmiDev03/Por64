@@ -1,0 +1,186 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Helmi Lakdher/ Technology Enthusiast</title>
+        
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="css/normalise.css" />
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Main Template CSS File -->
+        <link rel="stylesheet" href="css/portfolio.css" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,700&display=swap" rel="stylesheet">
+       
+      </head>
+      <body> 
+            <header>
+              
+              <div class="headertop">
+               <div class="logo" id="particles-js">
+                 
+                </div>
+              <button type="button" class="navbtn"><i class="fa-solid fa-bars"></i></button>
+              </div>
+              <nav id="nav">  
+                <ul>
+                  <li><a class="active" href="index.html"><i class="fa-solid fa-user"></i>About</a></li>
+                  <li><a class="active1" href="resume.html"><i class="fa-solid fa-book"></i></i>Resume</a></li>
+                  <li><a class="active2" href="projects.html"><i class="fa-solid fa-cube"></i>Projects</a></li>
+                  <li><a class="active3" href="contact.html"><i class="fa-solid fa-file-signature"></i>Contact</a></li>
+                </ul>
+
+              </nav>
+           </header> 
+
+
+
+           <div class="contact">
+            <div class="container">
+                <div class="text"><h1>Contact</h1></div> 
+                  <form action="https://formsubmit.co/helmipaty@gmail.com"
+                  method="POST">
+                  
+                    <p id="pee">I'm always open to discussing product
+                        <span id="special">design work.</span></p>
+                        <input type="hidden" name="_subject" value="Hello Helmi, You Got New Submition at Helmidev.com">
+                        <input type="text" id="name" name="Name" required placeholder="Name"  >  
+                        <input type="email" id="email" name="Email" required placeholder="Email "  >  
+                    <input type="hidden" name="_next" value="https://helmidev.com/thanks.html">
+                    <input type="text" id="name" name="Message" required placeholder="Write Your Message Here"  maxlength="500">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <button type="submit"  id="submit">Submit</button>
+
+                  </form>
+            </div>
+          </div>
+
+              <footer>
+                <h4>© 2022 All Rights Reserved By Helmi</h4>
+                </footer>
+             
+
+               
+
+
+
+            
+           
+           
+           <script src="contact.js"></script>
+           <script src="particles.js"></script>
+      </body>
+</html>
+<script>
+particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 99,
+        "density": {
+          "enable": true,
+          "value_area": 900
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        }
+      },
+      "opacity": {
+        "value": 0.9,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 8,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 100,
+        "color": "#ffffff",
+        "opacity": 0.9,
+        "width": 3
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": true,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 140,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
